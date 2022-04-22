@@ -1,0 +1,201 @@
+@font-face {
+    font-family: button;
+    src: url(button.ttf);
+}
+
+@font-face {
+    font-family: nav;
+    src: url(nav.ttf);
+}
+
+@font-face {
+    font-family: swan;
+    src: url(Swansea-q3pd.ttf);
+}
+
+
+.container{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-block-end: 80px;
+    position: relative;
+}
+
+.btn-1{
+    font-family: mybut;
+    inline-size: 350px;
+    block-size: 50px;
+    border: none;
+    color: #80a2a4;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 15px;
+    outline: none;
+    border: 3px solid #F9EFE5;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-1:hover{
+    color: #fffffe;
+    cursor: pointer;
+
+}
+
+.btn-1:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 50%;
+    inset-inline-end: 50%;
+    inset-block-end: 0;
+    opacity: 0;
+    content: "";
+    background-color: #c8c7ca;
+}
+
+.btn-1:hover:before{
+    transition:0.5s all ease;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+h2{
+    font-family: arial;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-block-end: 50px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.topnav{
+    background-color: rgba(0, 0, 0, 0.317);
+    text-align: end;
+    overflow: hidden;
+}
+
+.navbar{
+    inline-size: 100%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-family: mynav;
+}
+.logo{
+    inline-size: 120px;
+    cursor: pointer;
+    inline-size:95px;
+    margin-inline-start:20px;
+    margin-block-start:5px;
+    margin-block-end:3px;
+    float: inline-start;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+    margin-inline-end: 40px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fffffe;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.navbar ul li::after{
+    content: '';
+    block-size: 3px;
+    inline-size: 0;
+    background: #C1A5A1;
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-end: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    inline-size: 100%;
+}
+
+
+.body {
+    background-image: linear-gradient( antiquewhite, lightblue);
+    height: 250vh;
+}
+
+.main-title {
+    font-family: button;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0%
+
+}
+
+.elnidovideo {
+    right: 0;
+    margin-right: 15px;
+    min-width: 40%;
+    min-height: 100%;
+}
+.intro {
+    display:flex;
+}
+
+.desc-one {
+    font-family: dubhai;
+    padding: 30px;
+    float: left;
+    height: 25vh;
+    width: 50pvh;
+}
+
+body {
+    margin: 0;
+}
+
+.infos {
+    height: 70vh;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.pic {
+    height: 100px;
+}
+
+.info {
+    padding: 70px;
+    margin: 20px;
+    width: 100px;
+}
+
+.card {
+    margin: 10px;
+    margin-top: 10vh;
+    padding: 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
