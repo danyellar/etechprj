@@ -1,0 +1,151 @@
+@font-face {
+    font-family: mytitle;
+    src: url(title.ttf);
+ }
+
+ @font-face {
+    font-family: mynav;
+    src: url(nav.ttf);
+ }
+
+ @font-face {
+    font-family: mybut;
+    src: url(button.ttf);
+ }
+
+ body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bg2.jpeg');;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 400px;
+    margin-bottom: 60px;
+    clear: both;
+}
+
+h1{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: mybut;
+    text-align: center;
+    color: rgb(59, 58, 58);
+    font-size: 30px;
+}
+
+.topnav{
+    background-color: rgba(0, 0, 0, 0.317);
+    text-align: end;
+    overflow: hidden;
+}
+
+.navbar{
+    inline-size: 100%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-family: mynav;
+}
+.logo{
+    inline-size: 120px;
+    cursor: pointer;
+    inline-size:95px;
+    margin-inline-start:20px;
+    margin-block-start:5px;
+    margin-block-end:3px;
+    float: inline-start;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+    margin-inline-end: 40px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fffffe;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.navbar ul li::after{
+    content: '';
+    block-size: 3px;
+    inline-size: 0;
+    background: #C1A5A1;
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-end: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    inline-size: 100%;
+}
+
+.topnav a.active{
+    color: white;
+    background-color: #bdb4a874;
+    font-weight: bold;
+    font-size:larger;
+}
+
+footer {
+    display:block;
+    background-color: rgb(255, 255, 255);
+    inset-block-end: 0px;
+    position: fixed;
+    inline-size: 100%;
+}
+
+.footer-parag {
+    text-align: center;
+}
+
+<!--pictures-->
+
+* {box-sizing: border-box;}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  float: left;
+  inline-size: 19%;
+  padding: 6px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: #c7e0e2b9; /* see through*/
+  color: #f1f1f1; 
+  width: 50%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  font-family: mybut;
+  margin-bottom: 10px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
