@@ -13,74 +13,13 @@
     src: url(Swansea-q3pd.ttf);
 }
 
-
-.container{
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin-block-end: 80px;
-    position: relative;
-}
-
-.btn-1{
-    font-family: mybut;
-    inline-size: 350px;
-    block-size: 50px;
-    border: none;
-    color: #80a2a4;
-    border-radius: 4px;
-    transition: ease-out 0.3s;
-    font-size: 15px;
-    outline: none;
-    border: 3px solid #F9EFE5;
-    position: relative;
-    z-index: 1;
-}
-
-.btn-1:hover{
-    color: #fffffe;
-    cursor: pointer;
-
-}
-
-.btn-1:before{
-    transition: 0.5s all ease;
-    position: absolute;
-    inset-block-start: 0;
-    inset-inline-start: 50%;
-    inset-inline-end: 50%;
-    inset-block-end: 0;
-    opacity: 0;
-    content: "";
-    background-color: #c8c7ca;
-}
-
-.btn-1:hover:before{
-    transition:0.5s all ease;
-    inset-inline-start: 0;
-    inset-inline-end: 0;
-    opacity: 1;
-    z-index: -1;
-}
-
-
 h2{
-    font-family: arial;
     text-align: center;
     color: white;
     font-size: 20px;
     margin-block-end: 50px;
     margin-inline-start: 50px;
     margin-inline-end: 50px
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url('bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
 }
 
 .topnav{
@@ -95,7 +34,7 @@ body{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    font-family: mynav;
+    font-family: nav;
 }
 .logo{
     inline-size: 120px;
@@ -134,18 +73,17 @@ body{
     inline-size: 100%;
 }
 
-
 .body {
     background-image: linear-gradient( antiquewhite, lightblue);
     height: 250vh;
+    font-family: swan;
 }
 
 .main-title {
     font-family: button;
     text-align: left;
     margin-left: 20px;
-    margin-top: 0%
-
+    margin-top: 40px;
 }
 
 .elnidovideo {
@@ -164,6 +102,9 @@ body{
     float: left;
     height: 25vh;
     width: 50pvh;
+    font-family: swan;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 body {
@@ -197,5 +138,23 @@ body {
 }
 
 .card-text {
+    text-align: center;
+    font-family: swan;
+}
+
+h5{
+    font-family: button;
+}
+
+footer {
+    display:block;
+    background-color: rgb(255, 255, 255);
+    inset-block-end: 0px;
+    position: fixed;
+    inline-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-parag {
     text-align: center;
 }

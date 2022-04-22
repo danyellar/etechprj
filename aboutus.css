@@ -1,0 +1,119 @@
+@font-face {
+    font-family: mytitle;
+    src: url(title.ttf);
+ }
+
+ @font-face {
+    font-family: mynav;
+    src: url(nav.ttf);
+ }
+
+ @font-face {
+    font-family: mybut;
+    src: url(button.ttf);
+ }
+
+ body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.topnav{
+    background-color: rgba(0, 0, 0, 0.317);
+    text-align: end;
+    overflow: hidden;
+}
+
+.navbar{
+    inline-size: 100%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-family: mynav;
+}
+.logo{
+    inline-size: 120px;
+    cursor: pointer;
+    inline-size:95px;
+    margin-inline-start:20px;
+    margin-block-start:5px;
+    margin-block-end:3px;
+    float: inline-start;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+    margin-inline-end: 40px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fffffe;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.navbar ul li::after{
+    content: '';
+    block-size: 3px;
+    inline-size: 0;
+    background: #C1A5A1;
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-end: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    inline-size: 100%;
+}
+
+.topnav a.active{
+    color: white;
+    background-color: #bdb4a874;
+    font-weight: bold;
+    font-size:larger;
+}
+
+footer {
+    display:block;
+    background-color: rgb(255, 255, 255);
+    inset-block-end: 0px;
+    position: fixed;
+    inline-size: 100%;
+}
+
+.footer-parag {
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin-top: 10%;
+}
+
+.wrapper h1{
+    margin-bottom:60px;
+    text-align: center;
+}
+
+.team{
+    display:flex;
+    text-align: center;
+    width: auto;
+}
+
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+}
