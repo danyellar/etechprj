@@ -75,26 +75,98 @@ h2{
 
 .body {
     background-image: linear-gradient( antiquewhite, lightblue);
-    height: 230vh;
+    height: 215vh;
     font-family: swan;
+}
+
+.body-el {
+    background-image: url(elnido.jpg);
+    height: 245vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .body-bora {
-    background-image: linear-gradient( antiquewhite, lightblue);
-    height: 185vh;
+    background-image: url(boracay.jpg);
+    height: 195vh;
     font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
-.body-small {
-    background-image: linear-gradient( antiquewhite, lightblue);
-    height: 190vh;
+.body-puerto {
+    background-image: url(puerto.jpg);
+    height: 205vh;
     font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .body-samal {
-    background-image: linear-gradient( antiquewhite, lightblue);
+    background-image: url(samal.jpg);
+    height: 220vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-panglao {
+    background-image: url(panglao.jpg);
+    height: 200vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-coron {
+    background-image: url(coron\ .jpg);
+    height: 195vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-palaui {
+    background-image: url(palaui.jpg);
+    height: 195vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-pagudpud {
+    background-image: url(pagudpud.jpg);
     height: 205vh;
     font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-siargao {
+    background-image: url(siargao.jpg);
+    height: 195vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-mactan {
+    background-image: url(mactan.jpg);
+    height: 195vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .main-title {
@@ -102,11 +174,21 @@ h2{
     text-align: left;
     margin-left: 20px;
     margin-top: 40px;
+    color: #fffffe;
 }
+
+.bora-title {
+    font-family: button;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
 
 .beachvid {
     right: 0;
     margin-right: 15px;
+    margin-top: 0;
     min-width: 40%;
     min-height: 100%;
 }
@@ -116,6 +198,18 @@ h2{
 }
 
 .desc-one {
+    font-family: dubhai;
+    padding: 30px;
+    float: left;
+    height: 25vh;
+    width: 50pvh;
+    font-family: swan;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fffffe;
+}
+
+.palaui-desc {
     font-family: dubhai;
     padding: 30px;
     float: left;
@@ -141,8 +235,10 @@ body {
 }
 
 .info-one {
-    margin-top: 20px;
-    width: 220vh;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 10px;
 }
 
 .card {
