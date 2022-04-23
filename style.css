@@ -75,7 +75,25 @@ h2{
 
 .body {
     background-image: linear-gradient( antiquewhite, lightblue);
-    height: 250vh;
+    height: 230vh;
+    font-family: swan;
+}
+
+.body-bora {
+    background-image: linear-gradient( antiquewhite, lightblue);
+    height: 185vh;
+    font-family: swan;
+}
+
+.body-small {
+    background-image: linear-gradient( antiquewhite, lightblue);
+    height: 190vh;
+    font-family: swan;
+}
+
+.body-samal {
+    background-image: linear-gradient( antiquewhite, lightblue);
+    height: 205vh;
     font-family: swan;
 }
 
@@ -86,12 +104,13 @@ h2{
     margin-top: 40px;
 }
 
-.elnidovideo {
+.beachvid {
     right: 0;
     margin-right: 15px;
     min-width: 40%;
     min-height: 100%;
 }
+
 .intro {
     display:flex;
 }
@@ -121,10 +140,9 @@ body {
     height: 100px;
 }
 
-.info {
-    padding: 70px;
-    margin: 20px;
-    width: 100px;
+.info-one {
+    margin-top: 20px;
+    width: 220vh;
 }
 
 .card {
