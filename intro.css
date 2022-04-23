@@ -67,9 +67,9 @@ h1{
     font-family: mytitle;
     margin-block-start: 50px;
     margin-block-end: 0px;
-    margin-inline-end: 95px;
+    margin-inline-end: 200px;
     text-align: center;
-    color: #5c6468;
+    color: #b8b1a9;
     font-size: 200px;
 }
 
@@ -164,4 +164,28 @@ footer {
 
 video{
     display: none;
+}
+
+h1{
+    text-shadow:
+    0.05em 0 rgb(255, 250, 250),
+    0 0.05em rgb(255, 255, 255),
+    -0.05em 0 rgb(255, 255, 255),
+    0 -0.05em rgb(255, 255, 255),
+    -0.05em -0.05em rgb(255, 255, 255),
+    -0.05em 0.05em rgb(255, 255, 255),
+    0.05em -0.05em rgb(255, 255, 255),
+    0.05em 0.05em rgb(255, 255, 255);
+}
+
+h2{
+    text-shadow:
+    0.05em 0 #2f2d2a;
+    0 0.05em #2f2d2a;
+    -0.05em 0 #2f2d2a;
+    0 -0.05em #2f2d2a;
+    -0.05em -0.05em #2f2d2a;
+    -0.05em 0.05em ##2f2d2a;
+    0.05em -0.05em #2f2d2a;
+    0.05em 0.05em #2f2d2a;
 }
