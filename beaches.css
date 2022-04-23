@@ -16,12 +16,12 @@
  body{
     margin: 0;
     padding: 0;
-    background-image: url('bg2.jpeg');;
+    background-image: url('bg2.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    min-height: 400px;
-    margin-bottom: 60px;
+    min-block-size: 400px;
+    margin-block-end: 60px;
     clear: both;
 }
 
@@ -111,9 +111,9 @@ footer {
 .container {
   display: flex;
   position: relative;
-  width: 50%;
-  max-width: 300px;
-  float: left;
+  inline-size: 50%;
+  max-inline-size: 300px;
+  float: inline-start;
   inline-size: 19%;
   padding: 6px;
   flex-wrap: wrap;
@@ -127,16 +127,16 @@ footer {
 
 .image {
   display: block;
-  width: 100%;
-  height: auto;
+  inline-size: 100%;
+  block-size: auto;
 }
 
 .overlay {
   position: absolute; 
-  bottom: 0; 
+  inset-block-end: 0; 
   background: #c7e0e2b9; /* see through*/
   color: #f1f1f1; 
-  width: 50%;
+  inline-size: 50%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -144,7 +144,7 @@ footer {
   padding: 10px;
   text-align: center;
   font-family: mybut;
-  margin-bottom: 10px;
+  margin-block-end: 10px;
 }
 
 .container:hover .overlay {
