@@ -117,6 +117,7 @@ footer {
   inline-size: 19%;
   padding: 6px;
   flex-wrap: wrap;
+  float: left
 }
 
 .row::after {
