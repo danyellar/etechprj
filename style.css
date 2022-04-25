@@ -81,7 +81,7 @@ h2{
 
 .body-el {
     background-image: url(elnidobg.png);
-    height: 245vh;
+    height: 235vh;
     font-family: swan;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,8 +89,8 @@ h2{
 }
 
 .body-bora {
-    background-image: url(boracay.jpg);
-    height: 195vh;
+    background-image: url(boracaybg.png);
+    height: 185vh;
     font-family: swan;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -98,25 +98,7 @@ h2{
 }
 
 .body-puerto {
-    background-image: url(puerto.jpg);
-    height: 205vh;
-    font-family: swan;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-.body-samal {
-    background-image: url(samal.jpg);
-    height: 220vh;
-    font-family: swan;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-.body-panglao {
-    background-image: url(panglao.jpg);
+    background-image: url(puertobg.png);
     height: 200vh;
     font-family: swan;
     background-repeat: no-repeat;
@@ -124,26 +106,8 @@ h2{
     background-size: 100% 100%;
 }
 
-.body-coron {
-    background-image: url(coron\ .jpg);
-    height: 195vh;
-    font-family: swan;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-.body-palaui {
-    background-image: url(palaui.jpg);
-    height: 195vh;
-    font-family: swan;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-.body-pagudpud {
-    background-image: url(pagudpud.jpg);
+.body-samal {
+    background-image: url(samalbg.png);
     height: 205vh;
     font-family: swan;
     background-repeat: no-repeat;
@@ -151,8 +115,35 @@ h2{
     background-size: 100% 100%;
 }
 
-.body-siargao {
-    background-image: url(siargao.jpg);
+.body-panglao {
+    background-image: url(panglaobg.png);
+    height: 190vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-coron {
+    background-image: url(coronbg.png);
+    height: 185vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-palaui {
+    background-image: url(palauibg.png);
+    height: 180vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.body-pagudpud {
+    background-image: url(pagudpudbg.png);
     height: 195vh;
     font-family: swan;
     background-repeat: no-repeat;
@@ -160,9 +151,18 @@ h2{
     background-size: 100% 100%;
 }
 
+.body-siargao {
+    background-image: url(siargaobg.png);
+    height: 185vh;
+    font-family: swan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 .body-mactan {
-    background-image: url(mactan.jpg);
-    height: 195vh;
+    background-image: url(mactanbg.png);
+    height: 185vh;
     font-family: swan;
     background-repeat: no-repeat;
     background-attachment: fixed;
